@@ -118,8 +118,10 @@ This is a reminder for myself how to setup a new Mac or updating the OS, which m
 
    - unsetting  all tickboxes in /Mission Control/,
 
-   - set /Keyboard/ > /Modifier Keys.../ > /Caps Lock Key/ to /No Action/
-
+   - set /Keyboard/
+     + /Modifier Keys.../ > /Caps Lock Key/ to /No Action/
+     + /Shortcuts/ > /Move left a space/ > Ctrl+Cmd+Z and /Move right a space/ > Ctrl+Cmd+X
+     
    Set preferences in standard macOS apps such as:
    - Terminal
      + set /Profiles/ > /Shell/ > /When the shell exists:/ to /Close if the shell exited cleanly/
@@ -328,6 +330,13 @@ This is a reminder for myself how to setup a new Mac or updating the OS, which m
          framed capt-of makecell xstring moreverb wrapfig \
          adjustbox collectbox threeparttable capt-of pgf \
          ; do sudo tlmgr install ${i} ; done
+   #+END_SRC
+
+   In any case, make sure emacs finds the mactex installation by adding the mactex path to your .zshrc
+
+   #+BEGIN_SRC bash
+     # add mactex to PATH for spacemacs (This is the path to the MacTex Application installed from PKG, not from brew)
+     # export PATH="/Library/TeX/texbin/:$PATH"
    #+END_SRC
 
 ** Freeware
