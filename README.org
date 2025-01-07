@@ -118,6 +118,8 @@ This is a reminder for myself how to setup a new Mac or updating the OS, which m
 
    - unsetting  all tickboxes in /Mission Control/,
 
+   - /Desktop & Docks/ > Displays have separate Space
+
    - set /Keyboard/
      + /Modifier Keys.../ > /Caps Lock Key/ to /No Action/
      + /Shortcuts/ > /Move left a space/ > Ctrl+Cmd+Z and /Move right a space/ > Ctrl+Cmd+X
@@ -130,6 +132,10 @@ This is a reminder for myself how to setup a new Mac or updating the OS, which m
 
    - Finder
      + set tickbox /Advanced/ > /Show all filename extensions/
+
+** install teleport
+
+   - package can be found on this page https://goteleport.com/docs/connect-your-client/tsh/
 
 ** Set the default shell
    Apple is now using /zsh/ as its default shell. If you want to stay with /bash/, change it in the terminal:
